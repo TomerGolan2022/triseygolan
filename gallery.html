@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>גלריה | תריסי גולן</title>
+    <link rel="icon" href="./images/icon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/mysyle.css">
+</head>
+
+<body>
+
+    <!-- menu -->
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="./index.html">אודות</a>
+            <a href="./gallery.html">גלריה</a>
+            <a href="./contact.html">צור קשר</a>
+            <a href="https://www.facebook.com/golantris/" target="_blank">Facebook</a>
+        </div>
+    </div>
+    <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; <img style="max-width: 20%  ;"
+            src="./images/tg.jpg" alt="tg"></span>
+
+    <!-- layout -->
+
+    <div style="background-color: antiquewhite;overflow:auto">
+
+        <!-- gallery -->
+
+        <div style="text-align:center;padding:10px;margin-top:7px;">
+            <h2 style="color: rgb(201, 8, 8); font-weight: bolder;">גלריה</h2>
+        </div>
+
+        <!-- Photo Grid -->
+
+        <div class="row">
+            <div class="column">
+                <img src="./images/11.jpg" style="width:100%">
+                <img src="./images/12.jpg" style="width:100%">
+                <img src="./images/13.jpg" style="width:100%">
+                <img src="./images/14.jpg" style="width:100%">
+                <img src="./images/15.jpg" style="width:100%">
+                <img src="./images/16.jpg" style="width:100%">
+                <img src="./images/17.jpg" style="width:100%">
+                <img src="./images/18.jpg" style="width:100%">
+                <img src="./images/19.jpg" style="width:100%">
+                <img src="./images/20.jpg" style="width:100%">
+
+
+            </div>
+
+            <div class="column">
+                <img src="./images/21.jpg" style="width:100%">
+                <img src="./images/22.jpg" style="width:100%">
+                <img src="./images/23.jpg" style="width:100%">
+                <img src="./images/24.jpg" style="width:100%">
+                <img src="./images/25.jpg" style="width:100%">
+                <img src="./images/26.jpg" style="width:100%">
+                <img src="./images/27.jpg" style="width:100%">
+                <img src="./images/28.jpg" style="width:100%">
+                <img src="./images/29.jpg" style="width:100%">
+                <img src="./images/30.jpg" style="width:100%">
+                <img src="./images/31.jpg" style="width:100%">
+            </div>
+
+            <div class="column">
+                <img src="./images/32.jpg" style="width:100%">
+                <img src="./images/33.jpg" style="width:100%">
+                <img src="./images/34.jpg" style="width:100%">
+                <img src="./images/35.jpg" style="width:100%">
+                <img src="./images/36.jpg" style="width:100%">
+                <img src="./images/37.jpg" style="width:100%">
+                <img src="./images/38.jpg" style="width:100%">
+                <img src="./images/39.jpg" style="width:100%">
+                <img src="./images/40.jpg" style="width:100%">
+            </div>
+        </div>
+
+        <!-- foot -->
+
+        <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">
+            <p style="font-size: larger;">
+                <span style="color: rgba(201, 8, 8, 0.726);">
+                    רחוב הכרם 4, אשקלון
+                </span>
+                | משרד: 08-67-277-01 | שניר: 053-2700-594 | חי: 052-543-8200
+                <span style="color: rgba(201, 8, 8, 0.726);">
+                    שעות פתיחה: ימים א'-ה' 8:00-19:30 / יום ו' 8:00-14:30
+                </span>
+                <a href="https://www.facebook.com/golantris/" target="_blank"> <img style="width: 20px;"
+                        src="./images/1200px-Facebook_Logo_(2019).png" alt=""> </a>
+            </p>
+        </div>
+
+        <!-- sctipt -->
+
+        <script>
+
+            // menu
+
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+
+</body>
+
+</html>
